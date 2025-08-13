@@ -1,27 +1,27 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "OC preparation",
+    "description": "Mental child labour and torture.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/oc.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Selective school classes",
+    "description": "The mental anguish never ends!",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/ss.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Free homework support",
+    "description": "'Free' but you paid for it.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/hw.png",
       "width": 80,
       "height": 80
     }

@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Just a duo of Bad Boys^TM getting reading to set the tutoring scene of FIRE! The team is made up of two very passionate teachers. One is said to be the goodest of boys but I don't know who is what

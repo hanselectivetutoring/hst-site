@@ -1,0 +1,30 @@
+heading: Semester Timetable
+description: Weekly schedule for courses this semester.
+
+days:
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+
+time_slots:
+  - time: 9:00 - 10:00
+    Monday: Math
+    Tuesday: English
+    Wednesday: 
+    Thursday: Math
+    Friday: Math
+  - time: 10:00 - 11:00
+    Monday: 
+    Tuesday: Math
+    Wednesday: English
+    Thursday: 
+    Friday: English
+  - time: 11:00 - 12:00
+    Monday: Thinking skills
+    Tuesday: Writing
+    Wednesday: Reading
+    Thursday: Thinking skills
+    Friday: Homework support
+

@@ -2,12 +2,12 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+$primary: #004F95;
+$primary-dark: #003E75;
+$secondary: #FFB347;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #FFEBC8;
 $steel: #5c5a5a;
 
 // Links
@@ -116,3 +116,5 @@ body {
     line-height: 1.3;
   }
 }
+@import "custom";
+

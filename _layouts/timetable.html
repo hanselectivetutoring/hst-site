@@ -1,0 +1,32 @@
+---
+layout: default
+bodyClass: "page-timetable"
+---
+
+<div class="timetable-container">
+  <h1>{{ site.data.timetable.heading }}</h1>
+  <p>{{ site.data.timetable.description }}</p>
+
+  <!-- Weekly Calendar Table -->
+  <table class="weekly-calendar">
+    <thead>
+      <tr>
+        <th>Time</th>
+        {% for day in site.data.timetable.days %}
+          <th>{{ day }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for slot in site.data.timetable.time_slots %}
+        <tr>
+          <td>{{ slot.time }}</td>
+          {% for day in site.data.timetable.days %}
+            <td>{{ slot[day] }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+

@@ -1,0 +1,65 @@
+heading: Tuition Fees
+description: Below is a breakdown of our tuition fees for the upcoming semester.
+
+pricing_table:
+  - name: Full Price
+    color: "#004F95"
+    features:
+      - text: $800 per semester
+        highlight: true
+      - text: 11 weeks per semester
+        highlight: false
+      - text: 4 hours of classes
+        highlight: false
+      - text: CRM
+        highlight: false
+      - text: something else
+        highlight: false
+      - text: something
+        highlight: false
+
+
+  - name: Early Bird Discount
+    color: "#004F95"
+    features:
+      - text: $750 per month
+        highlight: true
+      - text: 10% off when you enrol before XX/XX/XX
+        highlight: false
+      - text: 11 weeks per sem
+        highlight: false
+      - text: 4 hrs
+        highlight: false
+      - text: something
+        highlight: false
+      - text: something
+        highlight: false
+
+
+  - name: Mid-Semester Enrolment
+    color: "#004F95"
+    features:
+      - text: $35 per class
+        highlight: true
+      - text: Flexible
+        highlight: false
+      - text: Budget friendly for short term goals
+        highlight: false
+      - text: trail benefits
+        highlight: false
+      - text: something
+        highlight: false
+      - text: something
+        highlight: false
+
+
+faq:
+  - question: What types of payment do you accept?
+    answer: Cash payment for now.
+  - question: WHen is early bird?
+    answer: when i tell u.
+  - question: why offer early bird?
+    answer: easy for me to plan next semester.
+  - question: Further questions?
+    answer: Feel free to contact us at <a href="#">hanselectivetutoring@gmail.com</a>.
+

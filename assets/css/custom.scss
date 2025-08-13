@@ -1,0 +1,205 @@
+---
+---
+
+
+/* Container for the whole pricing section */
+.pricing-container {
+  max-width: 1200px;   /* optional: constrain width */
+  margin: 0 auto;       /* center container horizontally */
+  padding: 80px 20px 50px; /* top, sides, bottom padding */
+  text-align: center;    /* center title & description */
+}
+
+/* Title & description */
+.pricing-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #2f2f41;
+  text-align: center;      /* centers the title */
+}
+
+.pricing-container p {
+  font-size: 1.2rem;
+  color: #2f2f41;
+  margin-bottom: 2rem;
+  text-align: center;      /* centers the subtitle/description */
+
+}
+
+/* Pricing plans container */
+.plans {
+  display: flex;
+  flex-wrap: wrap;          /* wrap on smaller screens */
+  gap: 20px;                /* space between plans */
+  justify-content: center;  /* center the plans */
+}
+
+/* Individual plan cards */
+.plan {
+  flex: 1 1 300px;          /* flexible width, min 300px */
+  max-width: 300px;
+  list-style: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: subtle shadow like Hydra */
+  border-radius: 8px;       /* optional: rounded corners */
+  text-align: left;          /* content left-aligned inside cards */
+}
+
+/* Plan features */
+.plan li {
+  text-align: center;      /* centers feature text */
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* Center the plan name */
+.plan li h3 {
+  text-align: center;      /* centers the text */
+  margin: 0;               /* remove default margin */
+  padding: 10px 0;         /* optional: spacing inside the li */
+  font-size: 1.5rem;       /* adjust size if needed */
+  color: #ffffff;             /* ensures text contrasts with background */
+}
+
+.plan li:first-child {
+  text-align: center;      /* centers plan name in header */
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.plan li:last-child {
+  border-bottom: none;
+}
+
+/* Highlighted features */
+.plan .highlighted {
+  font-weight: bold;
+  background: #FFEBC8;
+  text-align: center;      /* centers the text */
+}
+
+/* Call-to-action buttons */
+.pricing-cta .button a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Center the FAQ container */
+.faq-container {
+  max-width: 900px;       /* adjust as needed */
+  margin: 50px auto;      /* center horizontally and add top/bottom spacing */
+  text-align: center;     /* center the title */
+}
+
+/* FAQ title */
+.faq-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* FAQ list as two columns */
+.faq {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  text-align: left;       /* keep questions/answers left-aligned inside each column */
+}
+
+/* Each FAQ item styling */
+.faq-item dt {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.faq-item dd {
+  margin: 0 0 1em 0;
+  color: #555;
+}
+
+/* Responsive tweak for narrow screens */
+@media (max-width: 850px) {
+  .faq {
+    grid-template-columns: 1fr; /* single column on small screens */
+  }
+}
+
+/* for the courses page */
+/* Only target Courses page with absolute intro image */
+body.page-courses {
+  .intro {
+    position: relative;      /* container for absolute image */
+    padding-top: 120px;       /* space for text column */
+  }
+
+  /* Adjust absolute image positioning and size */
+  .intro-image.intro-image-absolute {
+    top: -40px !important;    /* pushes image down from top */
+    bottom: auto !important;  /* cancel bottom offsets from theme */
+    left: -100px !important;  /* adjust horizontal if needed */
+    
+    width: 800px !important;  /* set desired width */
+    height: auto !important;  /* maintain aspect ratio */
+  }
+
+  /* Optional: reduce padding and scale image on smaller screens */
+  @media (max-width: 768px) {
+    .intro-image.intro-image-absolute {
+      top: 40px !important;
+      left: 0 !important;      /* align to left on mobile */
+      width: 100% !important;  /* scale to container width */
+      height: auto !important; /* maintain aspect ratio */
+    }
+  }
+}
+
+/* Timetble */
+
+.page-timetable .timetable-container {
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.page-timetable h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.page-timetable p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.weekly-calendar {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 2rem;
+}
+
+.weekly-calendar th, .weekly-calendar td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.weekly-calendar th {
+  background: #FFEBC8;
+  font-weight: bold;
+}
+
+.weekly-calendar td {
+  background: #fff;
+}
+
+
