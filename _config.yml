@@ -1,4 +1,5 @@
-baseurl: '/'
+baseurl: '/hanselectivetutoring-site'
+url: 'https://hanselectivetutoring.github.io'
 permalink: pretty
 title: 'Han Selective Tutoring'
 
