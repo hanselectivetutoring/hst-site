@@ -5,7 +5,7 @@ weight: 1
 ---
 
 It all starts with a blank page. Unlock your creativitiy. Writing we love to write. 
-![Writing](/images/writing.jpg)
+![Writing]({{ site.baseurl }}/images/writing.jpg)
 
 # Objectives
 

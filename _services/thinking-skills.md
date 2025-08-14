@@ -6,6 +6,6 @@ weight: 5
 
 Here not only do we learn, we think. Fostering confidence in asking questions. 
 
-![Thinkng skills](/images/thinking.jpg)
+![Thinkng skills]({{ site.baseurl }}/images/thinking.jpg)
 
 

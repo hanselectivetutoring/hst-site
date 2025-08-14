@@ -6,6 +6,6 @@ weight: 4
 
 Math is all around us, it makes up the universe. I could write more but I am out of time.
 
-![Math](/images/math.jpg)
+![Math]({{ site.baseurl }}/images/math.jpg)
 
  
